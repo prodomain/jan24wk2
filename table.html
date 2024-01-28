@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <style>
+
+        table{
+    width: 80%;
+    margin: auto;
+        }
+        tfoot td{
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- table>(thead>tr>th*3)+(tbody>(tr>th+td*2)*5)+(tfoot>tr>td) -->
+ <table border="3">
+    <thead>
+        <tr>
+            <th scope="col">days</th>
+            <th scope="col">morning</th>
+            <th scope="col">evening</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr scope="row">
+            <th>monday</th>
+            <td rowspan="2">html</td>
+            <td>css</td>
+        </tr>
+        <t scope="row">
+            <th>tuesday</th>
+            <!-- <td rowspan="2">html</td> -->
+            <td>css</td>
+        </tr>
+        <tr scope="row">
+            <th>wednesday</th>
+            <td>css</td>
+            <td>html</td>
+        </tr>
+        <tr scope="row">
+            <th>thurday</th>
+            <td>html</td>
+            <td>css</td>
+        </tr>
+        <tr scope="row">
+            <th>friday</th>
+            <td colspan="3">html</td>
+            <!-- <td colspan="3">html</td> -->
+        </tr>
+    </tbody>
+    <caption>Study Schedule</caption>
+    <tfoot>
+        <tr>
+            <td colspan="3">change every 2 weeks</td>
+        </tr>
+    </tfoot>
+ </table>
+</body>
+
+</html>

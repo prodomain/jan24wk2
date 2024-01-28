@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Travel Guideument</title>
+    <style>
+      table {
+        width: 80%;
+        margin: auto;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#sights">Sights and sounds</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      
+      <h1>Explore the World with Us</h1>
+      
+      <h2 id="destinations">Discover Amazing Destinations</h2>
+      <table border="2" cellspacing="0" cellpadding="8">
+        <thead>
+          <tr>
+            <th>Destination Name</th>
+            <th>Description</th>
+            <th>Image</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Paris, France</td>
+            <td>The City of Lights, renowned for its romance, art, and culture.</td>
+            <td><img src="./week2/paris.jpg" alt="Paris"></td>
+          </tr>
+          <tr>
+            <td>Rome, Italy</td>
+            <td>A historical and architectural marvel, home to the Colosseum and Vatican City.</td>
+            <td><img src="./week2/rome.jpg" alt="Rome"></td>
+          </tr>
+          <tr>
+            <td>New York City, USA</td>
+            <td>The Big Apple, a vibrant metropolis with iconic landmarks and endless energy.</td>
+            <td><img src="./week2/new york.jpg" alt="New York City"></td>
+          </tr>
+          <tr>
+            <td>Tokyo, Japan</td>
+            <td>A serene city steeped in tradition, with beautiful temples, gardens, and geisha districts.</td>
+            <td><img src="./week2/tokyo.jpg" alt="Tokyo"></td>
+          </tr>
+          <tr>
+            <td>Sydney, Australia</td>
+            <td>A coastal gem with stunning harbor views, world-class beaches, and a relaxed atmosphere.</td>
+            <td><img src="./week2/sydney.jpg" alt="Sydney"></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2 id="sights">Experience the Journey</h2>
+      <div>
+        <audio controls>
+          <source src="audio/paris_sounds.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <p>Listen to the sounds of Paris</p>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2x16HZIzsKQ?si=zdxaOEoMID2KNu7C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>Take a virtual tour of Rome</p>
+      </div>
+
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yrGBH6ICN2w?si=hDpnwRzkpIFN7BVr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>Take a virtual tour of Tokyo</p>
+      </div>
+
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xJvgC40JGsM?si=5gI16FlAB1MrYw54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>Take a virtual tour of New York</p>
+      </div>
+
+      
+      <h2 id="contact">Contact Us</h2>
+      <p>Ready to plan your dream trip? Contact us today!</p>
+</body>
+</html>
